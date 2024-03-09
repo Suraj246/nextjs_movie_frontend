@@ -1,10 +1,10 @@
 import React from 'react'
-import FilteredGenreMovies from '../components/movieList/FilteredGenreMovies'
+import SuspenseFilter from '../components/movieList/SuspenseFilter'
 
 const page = () => {
     return (
         <div>
-            <FilteredGenreMovies />
+            <SuspenseFilter />
         </div>
     )
 }
