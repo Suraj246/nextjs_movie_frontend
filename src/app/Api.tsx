@@ -1,6 +1,6 @@
-import axios from "axios";
 
-export const Api = 'http://localhost:4000';
+// export const Api = 'http://localhost:4000';
+export const Api = 'https://nextjs-movie-backend.onrender.com';
 
 export type movieCardTypes = {
     _id: string;
