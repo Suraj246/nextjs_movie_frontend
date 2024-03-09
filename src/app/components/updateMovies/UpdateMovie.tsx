@@ -32,7 +32,7 @@ const UpdateMovie = () => {
         actors: filterMovieFromParamsId[0]?.actors ? filterMovieFromParamsId[0]?.actors : '',
         country: filterMovieFromParamsId[0]?.country ? filterMovieFromParamsId[0]?.country : "",
         rating: filterMovieFromParamsId[0]?.rating ? filterMovieFromParamsId[0]?.rating : "NA",
-        movieTrailer: filterMovieFromParamsId[0]?.movieTrailer ? filterMovieFromParamsId[0]?.movieTrailer : ''
+        trailer: filterMovieFromParamsId[0]?.trailer ? filterMovieFromParamsId[0]?.trailer : ''
     })
 
     // const [Type, setType] = useState<string>('movies')
