@@ -1,5 +1,5 @@
 import React from 'react'
-import SuspenseType from '../components/movieList/suspenseType'
+import SuspenseType from '../components/movieList/SuspenseType'
 
 const page = () => {
     return (
