@@ -1,10 +1,10 @@
 import React from 'react'
-import MovieType from '../components/movieList/MovieType'
+import SuspenseType from '../components/movieList/suspenseType'
 
 const page = () => {
     return (
         <div>
-            <MovieType />
+            <SuspenseType />
         </div>
     )
 }
