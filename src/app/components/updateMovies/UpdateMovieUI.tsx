@@ -186,16 +186,16 @@ const UpdateMovieUI: React.FC<PropsType> = ({ updateMovie, movieHandleSubmit, ha
                 </div>
 
                 <div className="mt-2">
-                    <label htmlFor="movieTrailer" className="block text-sm font-medium leading-6  text-white">
+                    <label htmlFor="trailer" className="block text-sm font-medium leading-6  text-white">
                         Movie Trailer
                     </label>
                     <div className="mt-2">
                         <input
                             type="text"
-                            name="movieTrailer"
-                            value={updateMovie.movieTrailer}
+                            name="trailer"
+                            value={updateMovie.trailer}
                             onChange={handleMovieChange}
-                            id="movieTrailer"
+                            id="trailer"
                             autoComplete="given-name"
                             className="block w-full rounded-md  border-0 px-1.5 py-1.5 text-white shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 bg-neutral-800"
                             required
